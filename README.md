@@ -7,7 +7,7 @@ This very simple fix sorts out that problem so you only need to have what it tel
 1) Add the file ExileClient_gui_vehicleRekeyDialog_event_onDropDownSelectionChanged.sqf to your fixes folder in your mission root. If you don't have one, just create one.
 
 2) In your mission file config.cpp find the block the starts with `class CfgExileCustomCode` and add the following for the override:
-    	//Fix For Vehicle Customs needing extra PT for Pin Change
-	ExileClient_gui_vehicleRekeyDialog_event_onDropDownSelectionChanged = "fixes\ExileClient_gui_vehicleRekeyDialog_event_onDropDownSelectionChanged.sqf";
+//Fix For Vehicle Customs needing extra PT for Pin Change
+ExileClient_gui_vehicleRekeyDialog_event_onDropDownSelectionChanged = "fixes\ExileClient_gui_vehicleRekeyDialog_event_onDropDownSelectionChanged.sqf";
   
 3) Repack and upload your mission.pbo
