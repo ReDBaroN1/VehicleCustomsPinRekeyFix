@@ -1,6 +1,6 @@
 # VehicleCustomsPinRekeyFix
 
-There is an issue with the default exile code where you need one additional poptab before you can change a vehicle's pin. So, currently if the dialogue box says 10,000, you would need 10,001 for the "reset pin" button to light up and allow you click to change pin.
+There is an issue with the default exile code where you need one additional poptab before you can change a vehicle's pin. So, currently if the dialogue box says 10,000, you would need 10,001 for the "reset pin" button to light up and allow you to click to change pin.
 
 This very simple fix sorts out that problem so you only need to have what it tells you to have on your player.
 
