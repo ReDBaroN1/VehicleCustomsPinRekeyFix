@@ -29,7 +29,7 @@ else
 	_rekeyCostControl ctrlSetStructuredText parseText format ["<t size='1.4'>%1<img image='\exile_assets\texture\ui\poptab_notification_ca.paa' size='1' shadow='true' /></t>", ExileRekeyCost];
 	_resetButton = _display displayCtrl 4003;
 	_resetButton ctrlEnable true;
-	if ((player getVariable ["ExileMoney", 0]) => ExileRekeyCost) then
+	if ((player getVariable ["ExileMoney", 0]) >= ExileRekeyCost) then
 	{
 		_purchaseButton = _display displayCtrl 4001;
 		_purchaseButton ctrlEnable true;
